@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var manhwaSelector = document.getElementById("manhwaSelector");
     var images = [];
 
-    for (var i = 1; i <= 22; i++) {
+    for (var i = 1; i <= 80; i++) {
         images.push(document.getElementById("image" + i));
     }
 
@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
         var selectedValue = manhwaSelector.value;
 
         if (selectedValue === "barolt") {
-            for (var i = 1; i <= 22; i++) {
-                images[i - 1].src = "barolt_vs_garhan/" + i + ".webp";
+            for (var i = 1; i <= 80; i++) {
+                images[i - 1].src = "barolt_vs_garhan/" + i + ".jpg";
             }
         } else {
         }
